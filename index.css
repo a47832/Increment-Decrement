@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#outer{
+    background-color: black;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    color: white;
+    font-size: 4vw;
+    padding: 0 0 2vw 0;
+}
+#mech{
+    display: flex;
+    background-color: white;
+    padding:6px;
+}
+#minus , #plus , #data{
+    padding: 2vw;
+    background-color: white;
+    border: 0;
+    font-size: 2.5vw;
+}
+#minus{
+    border-right:2px solid black;
+}
+#plus{
+    border-left:2px solid black;
+}
